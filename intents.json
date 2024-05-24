@@ -1,0 +1,65 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings", "Howdy", "Hey there"],
+        "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "Hey! What's up?", "Greetings! How can I assist you today?"],
+        "context_set": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a good day", "bye", "cao", "see ya", "farewell", "talk to you later"],
+        "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "Take care!", "See you soon!"],
+        "context_set": ""
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot", "Thank you so much", "I appreciate it"],
+        "responses": ["You're welcome!", "No problem!", "Happy to help!", "Anytime!", "My pleasure!"],
+        "context_set": ""
+      },
+      {
+        "tag": "programming",
+        "patterns": ["What is programming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?", "Explain programming", "Define coding", "What does a programmer do?"],
+        "responses": ["Programming, coding or software development, means writing computer code to automate tasks.", "Programming involves creating software to perform specific tasks by writing code.", "Coding is the process of designing and building an executable computer program to accomplish a specific computing result."],
+        "context_set": ""
+      },
+      {
+        "tag": "resource",
+        "patterns": ["Where can I learn to code?", "Best way to learn to code", "How can I learn programming", "Good programming resources", "Can you recommend good coding resources?", "Where to start learning coding?", "Coding tutorials", "Programming learning materials"],
+        "responses": ["Check out the NeuralNine YouTube channel and The Python Bible series (7 in 1).", "You can start with freeCodeCamp, Codecademy, or Coursera for great coding resources.", "For beginners, try online platforms like Khan Academy, edX, and Udemy."],
+        "context_set": ""
+      },
+      {
+        "tag": "python",
+        "patterns": ["Tell me about Python", "What is Python?", "Explain Python programming", "Why use Python?", "Python language"],
+        "responses": ["Python is a popular, high-level programming language known for its readability and versatility.", "Python is great for beginners due to its simple syntax and wide range of applications, from web development to data science.", "Python is used for web development, data analysis, artificial intelligence, and scientific computing."],
+        "context_set": ""
+      },
+      {
+        "tag": "machine_learning",
+        "patterns": ["What is machine learning?", "Explain machine learning", "Tell me about machine learning", "What can machine learning do?", "Machine learning applications"],
+        "responses": ["Machine learning is a branch of artificial intelligence that involves training algorithms to learn from data and make predictions.", "Machine learning enables computers to learn from experience and improve their performance over time without being explicitly programmed.", "Applications of machine learning include image recognition, natural language processing, and predictive analytics."],
+        "context_set": ""
+      },
+      {
+        "tag": "guitar",
+        "patterns": ["How to learn guitar?", "Best way to learn guitar", "Guitar tutorials", "Tips for learning guitar", "Guitar resources"],
+        "responses": ["You can learn guitar by watching YouTube tutorials, taking online courses, or using apps like Yousician.", "Practice regularly, start with basic chords, and gradually move to more complex songs.", "Try resources like JustinGuitar, Fender Play, and GuitarTricks for structured learning."],
+        "context_set": ""
+      },
+      {
+        "tag": "crypto",
+        "patterns": ["What is cryptocurrency?", "Tell me about crypto", "Explain cryptocurrency", "How to invest in crypto?", "Cryptocurrency basics"],
+        "responses": ["Cryptocurrency is a digital or virtual currency that uses cryptography for security and operates independently of a central bank.", "Popular cryptocurrencies include Bitcoin, Ethereum, and Litecoin.", "To invest in crypto, you can use exchanges like Coinbase, Binance, or Kraken, and always do thorough research before investing."],
+        "context_set": ""
+      },
+      {
+        "tag": "investing",
+        "patterns": ["How to start investing?", "Investment tips", "Where to invest?", "Investment strategies", "Investing for beginners"],
+        "responses": ["Start investing by researching different asset classes like stocks, bonds, and real estate.", "Consider using robo-advisors like Betterment or Wealthfront for automated investing.", "Diversify your portfolio to spread risk and consider both short-term and long-term investment strategies."],
+        "context_set": ""
+      }
+    ]
+  }
+  
