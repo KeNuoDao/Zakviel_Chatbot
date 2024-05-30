@@ -11,11 +11,14 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 
 lemmatizer = WordNetLemmatizer()
-intents = json.loads(open("D:\WorkC\OwnAIs\Zakviel\intents.json").read())
+nltk.download('punkt')
+nltk.download('wordnet')
 
-words = pickle.load(open("D:\WorkC\OwnAIs\Zakviel\words.pkl", "rb"))
-classes = pickle.load(open("D:\WorkC\OwnAIs\Zakviel\classes.pkl", "rb"))
-model = tf.keras.models.load_model("D:\WorkC\OwnAIs\Zakviel\chatbot_model.h5")
+intents = json.loads(open("intents.json").read())
+
+words = pickle.load(open("words.pkl", "rb"))
+classes = pickle.load(open("classes.pkl", "rb"))
+model = tf.keras.models.load_model("chatbot_model.h5")
 
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)
