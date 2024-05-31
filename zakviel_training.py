@@ -14,7 +14,7 @@ lemmatizer = WordNetLemmatizer()
 
 
 
-intents = json.loads(open("D:\WorkC\OwnAIs\Zakviel\intents.json").read())
+intents = json.loads(open("intents.json").read())
 
 
 
