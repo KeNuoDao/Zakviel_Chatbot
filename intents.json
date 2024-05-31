@@ -1,65 +1,184 @@
 {
     "intents": [
-      {
-        "tag": "greeting",
-        "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings", "Howdy", "Hey there"],
-        "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "Hey! What's up?", "Greetings! How can I assist you today?"],
-        "context_set": ""
-      },
-      {
-        "tag": "goodbye",
-        "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a good day", "bye", "cao", "see ya", "farewell", "talk to you later"],
-        "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "Take care!", "See you soon!"],
-        "context_set": ""
-      },
-      {
-        "tag": "thanks",
-        "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot", "Thank you so much", "I appreciate it"],
-        "responses": ["You're welcome!", "No problem!", "Happy to help!", "Anytime!", "My pleasure!"],
-        "context_set": ""
-      },
-      {
-        "tag": "programming",
-        "patterns": ["What is programming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?", "Explain programming", "Define coding", "What does a programmer do?"],
-        "responses": ["Programming, coding or software development, means writing computer code to automate tasks.", "Programming involves creating software to perform specific tasks by writing code.", "Coding is the process of designing and building an executable computer program to accomplish a specific computing result."],
-        "context_set": ""
-      },
-      {
-        "tag": "resource",
-        "patterns": ["Where can I learn to code?", "Best way to learn to code", "How can I learn programming", "Good programming resources", "Can you recommend good coding resources?", "Where to start learning coding?", "Coding tutorials", "Programming learning materials"],
-        "responses": ["Check out the NeuralNine YouTube channel and The Python Bible series (7 in 1).", "You can start with freeCodeCamp, Codecademy, or Coursera for great coding resources.", "For beginners, try online platforms like Khan Academy, edX, and Udemy."],
-        "context_set": ""
-      },
-      {
-        "tag": "python",
-        "patterns": ["Tell me about Python", "What is Python?", "Explain Python programming", "Why use Python?", "Python language"],
-        "responses": ["Python is a popular, high-level programming language known for its readability and versatility.", "Python is great for beginners due to its simple syntax and wide range of applications, from web development to data science.", "Python is used for web development, data analysis, artificial intelligence, and scientific computing."],
-        "context_set": ""
-      },
-      {
-        "tag": "machine_learning",
-        "patterns": ["What is machine learning?", "Explain machine learning", "Tell me about machine learning", "What can machine learning do?", "Machine learning applications"],
-        "responses": ["Machine learning is a branch of artificial intelligence that involves training algorithms to learn from data and make predictions.", "Machine learning enables computers to learn from experience and improve their performance over time without being explicitly programmed.", "Applications of machine learning include image recognition, natural language processing, and predictive analytics."],
-        "context_set": ""
-      },
-      {
-        "tag": "guitar",
-        "patterns": ["How to learn guitar?", "Best way to learn guitar", "Guitar tutorials", "Tips for learning guitar", "Guitar resources"],
-        "responses": ["You can learn guitar by watching YouTube tutorials, taking online courses, or using apps like Yousician.", "Practice regularly, start with basic chords, and gradually move to more complex songs.", "Try resources like JustinGuitar, Fender Play, and GuitarTricks for structured learning."],
-        "context_set": ""
-      },
-      {
-        "tag": "crypto",
-        "patterns": ["What is cryptocurrency?", "Tell me about crypto", "Explain cryptocurrency", "How to invest in crypto?", "Cryptocurrency basics"],
-        "responses": ["Cryptocurrency is a digital or virtual currency that uses cryptography for security and operates independently of a central bank.", "Popular cryptocurrencies include Bitcoin, Ethereum, and Litecoin.", "To invest in crypto, you can use exchanges like Coinbase, Binance, or Kraken, and always do thorough research before investing."],
-        "context_set": ""
-      },
-      {
-        "tag": "investing",
-        "patterns": ["How to start investing?", "Investment tips", "Where to invest?", "Investment strategies", "Investing for beginners"],
-        "responses": ["Start investing by researching different asset classes like stocks, bonds, and real estate.", "Consider using robo-advisors like Betterment or Wealthfront for automated investing.", "Diversify your portfolio to spread risk and consider both short-term and long-term investment strategies."],
-        "context_set": ""
-      }
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings", "Howdy", "Hey there"],
+            "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "Hey! What's up?", "Greetings! How can I assist you today?"],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a good day", "bye", "cao", "see ya", "farewell", "talk to you later"],
+            "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "Take care!", "See you soon!"],
+            "context_set": ""
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot", "Thank you so much", "I appreciate it"],
+            "responses": ["You're welcome!", "No problem!", "Happy to help!", "Anytime!", "My pleasure!"],
+            "context_set": ""
+        },
+        {
+            "tag": "programming",
+            "patterns": ["What is programming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?", "Explain programming", "Define coding", "What does a programmer do?"],
+            "responses": ["Programming, coding or software development, means writing computer code to automate tasks.", "Programming involves creating software to perform specific tasks by writing code.", "Coding is the process of designing and building an executable computer program to accomplish a specific computing result."],
+            "context_set": ""
+        },
+        {
+            "tag": "resource",
+            "patterns": ["Where can I learn to code?", "Best way to learn to code", "How can I learn programming", "Good programming resources", "Can you recommend good coding resources?", "Where to start learning coding?", "Coding tutorials", "Programming learning materials"],
+            "responses": ["Check out the NeuralNine YouTube channel and The Python Bible series (7 in 1).", "You can start with freeCodeCamp, Codecademy, or Coursera for great coding resources.", "For beginners, try online platforms like Khan Academy, edX, and Udemy."],
+            "context_set": ""
+        },
+        {
+            "tag": "python",
+            "patterns": ["Tell me about Python", "What is Python?", "Explain Python programming", "Why use Python?", "Python language"],
+            "responses": ["Python is a popular, high-level programming language known for its readability and versatility.", "Python is great for beginners due to its simple syntax and wide range of applications, from web development to data science.", "Python is used for web development, data analysis, artificial intelligence, and scientific computing."],
+            "context_set": ""
+        },
+        {
+            "tag": "machine_learning",
+            "patterns": ["What is machine learning?", "Explain machine learning", "Tell me about machine learning", "What can machine learning do?", "Machine learning applications"],
+            "responses": ["Machine learning is a branch of artificial intelligence that involves training algorithms to learn from data and make predictions.", "Machine learning enables computers to learn from experience and improve their performance over time without being explicitly programmed.", "Applications of machine learning include image recognition, natural language processing, and predictive analytics."],
+            "context_set": ""
+        },
+        {
+            "tag": "guitar",
+            "patterns": ["How to learn guitar?", "Best way to learn guitar", "Guitar tutorials", "Tips for learning guitar", "Guitar resources"],
+            "responses": ["You can learn guitar by watching YouTube tutorials, taking online courses, or using apps like Yousician.", "Practice regularly, start with basic chords, and gradually move to more complex songs.", "Try resources like JustinGuitar, Fender Play, and GuitarTricks for structured learning."],
+            "context_set": ""
+        },
+        {
+            "tag": "crypto",
+            "patterns": ["What is cryptocurrency?", "Tell me about crypto", "Explain cryptocurrency", "How to invest in crypto?", "Cryptocurrency basics"],
+            "responses": ["Cryptocurrency is a digital or virtual currency that uses cryptography for security and operates independently of a central bank.", "Popular cryptocurrencies include Bitcoin, Ethereum, and Litecoin.", "To invest in crypto, you can use exchanges like Coinbase, Binance, or Kraken, and always do thorough research before investing."],
+            "context_set": ""
+        },
+        {
+            "tag": "investing",
+            "patterns": ["How to start investing?", "Investment tips", "Where to invest?", "Investment strategies", "Investing for beginners"],
+            "responses": ["Start investing by researching different asset classes like stocks, bonds, and real estate.", "Consider using robo-advisors like Betterment or Wealthfront for automated investing.", "Diversify your portfolio to spread risk and consider both short-term and long-term investment strategies."],
+            "context_set": ""
+        },
+        {
+            "tag": "calculus",
+            "patterns": ["What is calculus?", "Explain calculus", "Tell me about calculus", "What is differential calculus?", "What is integral calculus?", "Calculus basics"],
+            "responses": ["Calculus is a branch of mathematics that studies continuous change, encompassing differential and integral calculus.", "Differential calculus focuses on the concept of a derivative, which represents rate of change.", "Integral calculus deals with integrals and the accumulation of quantities."],
+            "context_set": ""
+        },
+        {
+            "tag": "linear_algebra",
+            "patterns": ["What is linear algebra?", "Explain linear algebra", "Tell me about linear algebra", "Linear algebra applications", "Basics of linear algebra"],
+            "responses": ["Linear algebra is a branch of mathematics concerning linear equations, linear functions, and their representations through matrices and vector spaces.", "It is essential for various fields such as computer science, engineering, physics, and machine learning.", "Key concepts include vectors, matrices, determinants, eigenvalues, and eigenvectors."],
+            "context_set": ""
+        },
+        {
+            "tag": "chinese_language",
+            "patterns": ["How to learn Chinese?", "Best way to learn Chinese", "Chinese language resources", "Tips for learning Chinese", "Chinese tutorials"],
+            "responses": ["You can learn Chinese by using apps like Duolingo and Rosetta Stone, or taking online courses on platforms like Coursera and edX.", "Practice regularly, focus on learning characters, and try to immerse yourself in the language by watching Chinese media.", "Consider language exchange programs or finding a language partner for more practice."],
+            "context_set": ""
+        },
+        {
+            "tag": "computer_games",
+            "patterns": ["What are popular computer games?", "Recommend some computer games", "Best PC games", "Trending computer games", "Popular games right now"],
+            "responses": ["Popular computer games include titles like 'Minecraft', 'Fortnite', 'League of Legends', 'Among Us', and 'Cyberpunk 2077'.", "Check out 'The Witcher 3: Wild Hunt', 'Overwatch', 'Apex Legends', and 'Valorant' for highly rated games.", "Stay updated on gaming trends by following gaming news websites and communities like IGN and Kotaku."],
+            "context_set": ""
+        },
+        {
+            "tag": "data_science",
+            "patterns": ["What is data science?", "Explain data science", "Tell me about data science", "Data science applications", "Basics of data science"],
+            "responses": ["Data science involves extracting insights and knowledge from data using scientific methods, algorithms, and systems.", "It combines aspects of statistics, computer science, and domain expertise to analyze and interpret complex data.", "Applications of data science include predictive analytics, data mining, machine learning, and big data analysis."],
+            "context_set": ""
+        },
+        {
+            "tag": "english_learning",
+            "patterns": ["How to learn English?", "Best way to learn English", "English learning resources", "Tips for learning English", "English tutorials"],
+            "responses": ["You can learn English by using apps like Duolingo, Babbel, and Rosetta Stone, or taking online courses on platforms like Coursera and edX.", "Practice speaking regularly, read English books and articles, and watch movies or shows in English.", "Consider joining language exchange programs or finding a language partner for more practice."],
+            "context_set": ""
+        },
+        {
+          "tag": "health_fitness",
+          "patterns": ["How to stay fit?", "Best fitness tips", "Exercise routines", "How to lose weight?", "Healthy living tips"],
+          "responses": ["Staying fit involves regular exercise, balanced nutrition, and adequate rest.", "Consider combining cardio, strength training, and flexibility exercises for a well-rounded fitness routine.", "For weight loss, focus on a balanced diet, regular physical activity, and staying hydrated."],
+          "context_set": ""
+        },
+        {
+            "tag": "nutrition",
+            "patterns": ["What is a balanced diet?", "Healthy eating tips", "Nutrition basics", "Best foods for health", "Dietary recommendations"],
+            "responses": ["A balanced diet includes a variety of foods from all food groups: fruits, vegetables, proteins, grains, and dairy.", "Healthy eating tips include eating plenty of fruits and vegetables, choosing whole grains, and reducing sugar and salt intake.", "Staying hydrated and moderating portion sizes are also important for good nutrition."],
+            "context_set": ""
+        },
+        {
+            "tag": "travel",
+            "patterns": ["Best travel destinations?", "Travel tips", "How to travel on a budget?", "Top tourist attractions", "Travel recommendations"],
+            "responses": ["Some popular travel destinations include Paris, Tokyo, New York, and Rome.", "For budget travel, consider off-season trips, staying in hostels, and using travel apps for discounts.", "Top tourist attractions include the Eiffel Tower, Great Wall of China, and Grand Canyon."],
+            "context_set": ""
+        },
+        {
+            "tag": "movies",
+            "patterns": ["Recommend some movies", "Best movies to watch", "Top movies right now", "Popular films", "Movie suggestions"],
+            "responses": ["Some highly recommended movies include 'Inception', 'The Shawshank Redemption', 'The Godfather', and 'Parasite'.", "For current popular films, check out the latest box office hits and streaming platform recommendations.", "Genres like action, comedy, drama, and sci-fi offer a wide range of great movies."],
+            "context_set": ""
+        },
+        {
+            "tag": "music",
+            "patterns": ["Recommend some music", "Best songs to listen to", "Popular music right now", "Music suggestions", "Top music genres"],
+            "responses": ["Popular music genres include pop, rock, hip-hop, classical, and jazz.", "Some current popular artists are Billie Eilish, BTS, Taylor Swift, and Ed Sheeran.", "For music recommendations, explore playlists on platforms like Spotify, Apple Music, and YouTube."],
+            "context_set": ""
+        },
+        {
+            "tag": "cooking",
+            "patterns": ["Easy recipes to cook", "Best recipes for beginners", "Cooking tips", "Healthy recipes", "Popular dishes to make"],
+            "responses": ["Easy recipes for beginners include pasta dishes, stir-fries, and salads.", "For healthy recipes, try making dishes with plenty of vegetables, lean proteins, and whole grains.", "Popular dishes include spaghetti Bolognese, chicken curry, and homemade pizza."],
+            "context_set": ""
+        },
+        {
+            "tag": "technology",
+            "patterns": ["Latest technology trends", "New tech gadgets", "Tech news", "Innovations in technology", "Popular tech products"],
+            "responses": ["Current technology trends include artificial intelligence, blockchain, and 5G networks.", "Popular tech gadgets include the latest smartphones, smartwatches, and VR headsets.", "Stay updated on tech news by following websites like TechCrunch, Wired, and The Verge."],
+            "context_set": ""
+        },
+        {
+            "tag": "career_advice",
+            "patterns": ["How to advance in my career?", "Career development tips", "Job search advice", "Improving job skills", "Career growth strategies"],
+            "responses": ["To advance in your career, consider continuous learning, networking, and seeking mentorship.", "Improve job skills by taking courses, attending workshops, and gaining hands-on experience.", "For job search advice, focus on building a strong resume, preparing for interviews, and leveraging professional networks."],
+            "context_set": ""
+        },
+        {
+            "tag": "mental_health",
+            "patterns": ["How to manage stress?", "Tips for mental health", "Mental well-being advice", "Coping with anxiety", "Improving mental health"],
+            "responses": ["Managing stress involves practices like mindfulness, regular exercise, and adequate sleep.", "For mental well-being, stay connected with loved ones, engage in hobbies, and seek professional help if needed.", "Techniques like deep breathing, meditation, and journaling can also help with anxiety."],
+            "context_set": ""
+        },
+        {
+            "tag": "self_improvement",
+            "patterns": ["Tips for self-improvement", "How to be more productive?", "Self-improvement resources", "Personal development advice", "Improving oneself"],
+            "responses": ["Self-improvement can be achieved through setting goals, learning new skills, and maintaining a positive mindset.", "Productivity tips include time management, prioritizing tasks, and minimizing distractions.", "Consider reading personal development books, attending workshops, and using productivity tools like planners or apps."],
+            "context_set": ""
+        },
+        {
+            "tag": "science",
+            "patterns": ["Latest science news", "Popular science topics", "Science discoveries", "Explain a scientific concept", "Current science trends"],
+            "responses": ["Stay updated on science news by following sources like ScienceDaily, Nature, and National Geographic.", "Popular science topics include space exploration, climate change, and genetic research.", "Recent discoveries include advancements in renewable energy, CRISPR technology, and exoplanet studies."],
+            "context_set": ""
+        },
+        {
+            "tag": "books",
+            "patterns": ["Recommend some books", "Best books to read", "Top books right now", "Popular novels", "Book suggestions"],
+            "responses": ["Some highly recommended books include 'To Kill a Mockingbird', '1984', 'Pride and Prejudice', and 'The Great Gatsby'.", "For current popular books, check out bestseller lists on websites like Goodreads and Amazon.", "Genres like fiction, non-fiction, mystery, and fantasy offer a wide range of great books."],
+            "context_set": ""
+        },
+        {
+            "tag": "pets",
+            "patterns": ["How to care for a pet?", "Best pets for beginners", "Pet care tips", "Popular pet breeds", "How to train a pet?"],
+            "responses": ["Caring for a pet involves providing proper nutrition, regular exercise, and routine veterinary care.", "Popular pets for beginners include cats, dogs, fish, and small mammals like hamsters and guinea pigs.", "Training tips include using positive reinforcement, being consistent, and starting with basic commands."],
+            "context_set": ""
+        },
+        {
+            "tag": "environment",
+            "patterns": ["How to help the environment?", "Environmental tips", "Sustainable living advice", "Ways to reduce waste", "Environmental conservation"],
+            "responses": ["You can help the environment by reducing waste, recycling, and using energy-efficient appliances.", "Consider sustainable living practices like reducing plastic use, conserving water, and supporting renewable energy.", "Participate in environmental conservation efforts such as tree planting, clean-up drives, and wildlife protection."],
+            "context_set": ""
+        }
     ]
-  }
-  
+}

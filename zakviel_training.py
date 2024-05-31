@@ -5,6 +5,9 @@ import numpy as np
 import tensorflow as tf
 import os
 
+dir_path = os.path.dirname(os.path.realpath(__file__))
+os.chdir(dir_path)
+
 import nltk
 from nltk.stem import WordNetLemmatizer
 nltk.download('punkt')
